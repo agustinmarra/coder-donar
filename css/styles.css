@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-weight: 700;
+}
+.ar{
+    color: blueviolet;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#index h1{
+    font-size: 100px;
+    font-weight: 600;
+}
+.donation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 300px;
+}
+.btn{
+    background-color: blueviolet;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(118, 31, 201);
+}
+
+/* Nosotros */ /* Nosotros */ /* Nosotros */ /* Nosotros */ /* Nosotros */
+
+.titulo{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 70px;
+    width: 50%;
+    display: flex;
+    align-self: auto;
+}
+.quienes-somos{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-somos {
+    display: flex;
+    align-self: auto;
+    width: 50%;
+    margin-top: 20px;
+}
+.titulo-hacemos{
+    display: flex;
+    align-self: auto;
+    width: 50%;
+    margin-top: 60px;
+}
+.parrafo-somos, .parrafo-hacemos{
+    margin-top: 20px;
+    width: 50%;
+}
+/* Nosotros */ /* Nosotros */ /* Nosotros */ /* Nosotros */ /* Nosotros */
+
+/* Proyectos */ /* Proyectos */ /* Proyectos */ /* Proyectos */ /* Proyectos */
+
+
+section img{
+    width: 215px;
+    height: 140px;
+}
+
+.title-proyectos{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.title-proyectos h1{
+    font-size: 70px;
+    align-self: auto;
+    width: 50%;
+}
+
+.proyecto1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bloque{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    width: 50%;
+}
+
+/* Proyectos */ /* Proyectos */ /* Proyectos */ /* Proyectos */ /* Proyectos */
+
+/* Contacto */ /* Contacto */ /* Contacto */ /* Contacto */ /* Contacto */
+
+.title-contacto{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.title-contacto h1{
+    font-size: 70px;
+    align-self: auto;
+    width: 50%;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+.form-contacto{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+
+/* Contacto */ /* Contacto */ /* Contacto */ /* Contacto */ /* Contacto */
+
+/* Donar */ /* Donar */ /* Donar */ /* Donar */ /* Donar */
+
+#donar main{
+    display: flex;
+}
+.izquierda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color:lavender;
+    height: 100vh;
+}
+.el-proyecto{
+    align-items: self-start;
+    margin-bottom: 30px;
+}
+.title-elegi{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.title-elegi h3 {
+    font-weight: 300;
+}
+.title-monto{
+    font-size: 16px;
+}
+.title-monto h4{
+    font-weight: 400;
+}
+.monto{
+    margin-bottom: 10px;
+}
+.total-monto{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.derecha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.title-donar{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.title-donar h3{
+    font-weight: 300;
+}
+.aviso-donar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: darkgrey;
+    width: 50%;
+    margin-top: 20px;
+}
+
+
+
+
+/* Footer */
+
+footer{
+    display: flex;
+    background-color: #eee;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+}
+footer img{
+    height: 22px;
+    padding: 0px 12px;
+}
+
+/* Footer */
+
+
+@media screen and (max-width: 425px){
+    #index h1{
+        font-size: 70px;
+    }
+
+}
