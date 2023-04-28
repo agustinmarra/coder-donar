@@ -37,36 +37,15 @@ a{
 
 /* Nosotros */ /* Nosotros */ /* Nosotros */ /* Nosotros */ /* Nosotros */
 
-.titulo{
-    margin-top: 30px;
-    margin-bottom: 60px;
-    font-size: 70px;
-    width: 50%;
-    display: flex;
-    align-self: auto;
+.somos{
+    background-color:#eee;
 }
-.quienes-somos{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.title{
+    font-weight: 600;
+    font-size: 80px;
 }
-.titulo-somos {
-    display: flex;
-    align-self: auto;
-    width: 50%;
-    margin-top: 20px;
-}
-.titulo-hacemos{
-    display: flex;
-    align-self: auto;
-    width: 50%;
-    margin-top: 60px;
-}
-.parrafo-somos, .parrafo-hacemos{
-    margin-top: 20px;
-    width: 50%;
-}
+
 /* Nosotros */ /* Nosotros */ /* Nosotros */ /* Nosotros */ /* Nosotros */
 
 /* Proyectos */ /* Proyectos */ /* Proyectos */ /* Proyectos */ /* Proyectos */
